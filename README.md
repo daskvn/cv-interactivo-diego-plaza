@@ -22,6 +22,6 @@ Currículum Vitae interactivo desarrollado como evaluación final del Módulo 2 
 
 ## Cómo ver el CV
 
-Cuando GitHub Pages esté configurado, el CV estará disponible en:
+El CV está disponible en:
 
-> (aquí va el enlace a GitHub Pages cuando lo habilites)
+https://daskvn.github.io/cv-interactivo-diego-plaza/
