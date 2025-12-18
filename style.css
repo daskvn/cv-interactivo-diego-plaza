@@ -1,0 +1,103 @@
+body {
+  padding-top: 70px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.section-padding {
+  padding: 90px 0 60px 0;
+}
+.light-theme {
+  background-color: #e5ecf5;      
+  color: #222831;
+}
+.dark-theme {
+  background-color: #020617;      
+  color: #f5f7fb;
+}
+.navbar-dark.bg-dark {
+  background-color: #020617 !important;
+}
+.card {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.96);     
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+  color: inherit;
+}
+.dark-theme .card {
+  background-color: #111827;                   
+  color: #e5e7eb;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.7);
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.2);
+}
+.card-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.card-subtitle {
+  color: #6b7280;
+}
+.dark-theme .card-subtitle {
+  color: #cbd5f5;
+}
+a {
+  color: #2563eb;
+}
+a:hover {
+  color: #1d4ed8;
+}
+.dark-theme a {
+  color: #60a5fa;
+}
+.dark-theme a:hover {
+  color: #93c5fd;
+}
+.fade-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+.btn-outline-success {
+  color: #16a34a;
+  border-color: #16a34a;
+}
+.btn-outline-success:hover {
+  background-color: #16a34a;
+  color: #ffffff;
+}
+.habilidades-alt {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #ffffff !important;
+}
+.habilidades-alt h2,
+.habilidades-alt h3,
+.habilidades-alt h5,
+.habilidades-alt p,
+.habilidades-alt li,
+.habilidades-alt .card-title,
+.habilidades-alt .card-subtitle,
+.habilidades-alt a {
+  color: #ffffff !important;
+}
+footer {
+  font-size: 0.9rem;
+}
+#inicio {
+  margin-bottom: 40px;
+}
